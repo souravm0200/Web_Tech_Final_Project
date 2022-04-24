@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="dropdown nav-drop drop">
+        <button onclick="showItems()" class="dropbtn">
+            <div class="drop-btn-text">
+                <div>Add Users Account</div>
+                <div>&bigtriangledown;</div>
+            </div>
+        </button>
+        <div id="dropdown" class="dropdown-content">
+            <hr>
+            <a href="registration.php?userType=faculty">Faculty</a>
+            <hr>
+            <a href="registration.php?userType=student">Student</a>
+        </div>
+    </div>
+    <script src="../javascript/functionality.js"></script>
+</body>
+</html>
